@@ -1,0 +1,100 @@
+.adress-book {
+  margin: 24px;
+}
+.inputs-block {
+  display: flex;
+  flex-direction: column;
+}
+span {
+  padding: 10px;
+  border-bottom: 1px solid black;
+  font-size: 17px;
+}
+li span:nth-child(4) {
+  border-bottom: none;
+}
+.inputs {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+input {
+  border: none;
+  border-bottom: 1px solid #0a2c40;
+  outline: none;
+  margin-right: 24px;
+}
+input:focus {
+  outline: none;
+}
+.favourite-btn {
+  text-decoration: none;
+  border: none;
+  background: none;
+  margin-bottom: 18px;
+  font-size: 16px;
+}
+.style {
+  background: #0a5d91;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0a5d91), to(#0a2c40));
+  background-image: linear-gradient(to bottom, #0a5d91, #0a2c40);
+  border-radius: 9px;
+  border: none;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px 18px 5px 18px;
+  text-decoration: none;
+  margin-top: 8px;
+}
+.style:hover {
+  background: #940f2e;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#940f2e), to(#570912));
+  background-image: linear-gradient(to bottom, #940f2e, #570912);
+  text-decoration: none;
+}
+li {
+  padding-top: 24px;
+  list-style: none;
+  display: inline-grid;
+  margin-right: 30px;
+  -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 18px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 18px 0 rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 12px;
+  padding-bottom: 16px;
+  margin-bottom: 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 7px;
+  width: 300px;
+}
+#submit,
+#sortAz {
+  background: #0a5d91;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0a5d91), to(#0a2c40));
+  background-image: linear-gradient(to bottom, #0a5d91, #0a2c40);
+  border-radius: 9px;
+  border: none;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px 18px 5px 18px;
+  text-decoration: none;
+  outline: none;
+}
+#submit:hover,
+#sortAz:hover {
+  background: #940f2e;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#940f2e), to(#570912));
+  background-image: linear-gradient(to bottom, #940f2e, #570912);
+  text-decoration: none;
+}
+.search-container {
+  display: inline-block;
+}
+label {
+  margin-right: 10px;
+}
+#lists {
+  padding-left: 0;
+}
